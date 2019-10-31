@@ -20,7 +20,7 @@
 				<div class="akan-description">
 					<p>A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
 					<p>Here are some Ghanaian Names:</p>
-					<div class="row">
+					<div class="row ghanaian-names">
 						<div class="col-md-6">
 							<h4>Female</h4>
 							<ul>
@@ -48,10 +48,49 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-md-7">
+				<h5>Please Enter Your Birthdate Here:</h5>
+				<div class="add-stylist-form">
+					<form>
+						<div class="form-group mb15">
+			              	<label class="label">First Name</label>
+			               	<input type="text" name="stylistFirstName" placeholder="Stylist's First Name" class="form-control" />
+			            </div>
+			            
+						<div class="form-group mb15">
+			              	<label class="label">Last Name</label>
+			               	<input type="text" name="stylistLastName" placeholder="Stylist's Last Name" class="form-control" />
+			            </div>
+
+						<div class="form-group mb15">
+			              	<label class="label">Age</label>
+			               	<input type="number" name="stylistAge" placeholder="Stylist's Age" class="form-control" />
+			            </div>   
+
+						<div class="form-group mb15">
+			              	<label class="label">Phone No.</label>
+			               	<input type="text" name="stylistPhone" placeholder="Stylist's Mobile Number" class="form-control" />
+			            </div>   
+
+						<div class="form-group mb15">
+			              	<label class="label">Gender</label>
+			               	<div class="rdio rdio-default fs11">
+		                        <input type="radio" name="radio" id="male" value="1">
+		                        <label for="male">&nbsp;&nbsp;Male</label>
+		                    </div>
+		                    <div class="rdio rdio-primary fs11">
+		                        <input type="radio" name="radio" value="2" id="female">
+		                        <label for="female">&nbsp;&nbsp;Female</label>
+		                     </div>
+			            </div>
+			            <button type="submit" class="btn btn-primary btn-xs"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add Stylist</button>
+			            <button type="reset" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
+					</form>	
+				</div>
+			</div>
 		</div>
-		<div class="row"></div>
-		<div class="row"></div>
-		<div class="row"></div>
+
+		<footer class="footer"><p>&copy; 2019 All Rights Reserved. Moringa School, Akan Names Project. Developed by Yommie Samora.</p></footer>
 	</div>
 
 </body>
