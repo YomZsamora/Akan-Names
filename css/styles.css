@@ -92,7 +92,7 @@ span.heading-name {
     color: #bd5d38 !important;
 }
 
-.ghanaian-names h4 {
+.ghanaian-names h4, .akan-form h5 {
     color: #bd5d38;
 }
 
@@ -100,7 +100,9 @@ span.heading-name {
     background-color: #bd5d38;
 }
 
-
+.text-right {
+    text-align: right;
+}
 
 
 

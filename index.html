@@ -14,12 +14,13 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-5 intro">
+			<div class="col-md-2"></div>
+			<div class="col-md-4 intro">
 				<h1 class="akan-heading">Akan <span class="heading-name">Names</span></h1>
 				<hr>
 				<div class="akan-description">
-					<p>A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
-					<p>Here are some Ghanaian Names:</p>
+					<p class="fs12">A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+					<p class="fs12">Here are some Ghanaian Names:</p>
 					<div class="row ghanaian-names">
 						<div class="col-md-6">
 							<h4>Female</h4>
@@ -48,14 +49,14 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-7">
+			<div class="col-md-4 mt30 akan-form">
 				<h5>Please Enter Your Birthdate Here:</h5>
 				<div class="add-stylist-form">
 					<form><div class="form-group mb15">
 			              	<label class="label">Birthday</label>
 			               	<div class="input-group mb15">
 				                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-				                <input type="text" placeholder="Date" id="date" class="form-control">
+				                <input type="text" placeholder="dd/mm/yyyy" id="date" class="form-control">
 				             </div>
 			            </div>   
 
@@ -70,11 +71,15 @@
 		                        <label for="female">&nbsp;&nbsp;Female</label>
 		                     </div>
 			            </div>
-			            <button type="submit" class="btn btn-primary btn-xs"><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp;&nbsp;Add Stylist</button>
+			            <button type="submit" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
 			            <button type="reset" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
 					</form>	
 				</div>
+				<div class="your-akan-name">
+					<p>Born on a Tuesday, Your Akan Name is Kwabena!</p>
+				</div>
 			</div>
+			<div class="col-md-2"></div>
 		</div>
 
 		<footer class="footer"><p>&copy; 2019 All Rights Reserved. Moringa School, Akan Names Project. Developed by Yommie Samora.</p></footer>
