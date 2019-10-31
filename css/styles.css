@@ -96,6 +96,14 @@ span.heading-name {
     color: #bd5d38;
 }
 
+.rdio input[type="radio"]:checked + label::after {
+    background-color: #bd5d38;
+}
+
+
+
+
+
 .footer {
     position: fixed; 
     bottom: 0;

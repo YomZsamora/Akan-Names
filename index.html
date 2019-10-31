@@ -51,25 +51,12 @@
 			<div class="col-md-7">
 				<h5>Please Enter Your Birthdate Here:</h5>
 				<div class="add-stylist-form">
-					<form>
-						<div class="form-group mb15">
-			              	<label class="label">First Name</label>
-			               	<input type="text" name="stylistFirstName" placeholder="Stylist's First Name" class="form-control" />
-			            </div>
-			            
-						<div class="form-group mb15">
-			              	<label class="label">Last Name</label>
-			               	<input type="text" name="stylistLastName" placeholder="Stylist's Last Name" class="form-control" />
-			            </div>
-
-						<div class="form-group mb15">
-			              	<label class="label">Age</label>
-			               	<input type="number" name="stylistAge" placeholder="Stylist's Age" class="form-control" />
-			            </div>   
-
-						<div class="form-group mb15">
-			              	<label class="label">Phone No.</label>
-			               	<input type="text" name="stylistPhone" placeholder="Stylist's Mobile Number" class="form-control" />
+					<form><div class="form-group mb15">
+			              	<label class="label">Birthday</label>
+			               	<div class="input-group mb15">
+				                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+				                <input type="text" placeholder="Date" id="date" class="form-control">
+				             </div>
 			            </div>   
 
 						<div class="form-group mb15">
@@ -78,7 +65,7 @@
 		                        <input type="radio" name="radio" id="male" value="1">
 		                        <label for="male">&nbsp;&nbsp;Male</label>
 		                    </div>
-		                    <div class="rdio rdio-primary fs11">
+		                    <div class="rdio rdio-default fs11">
 		                        <input type="radio" name="radio" value="2" id="female">
 		                        <label for="female">&nbsp;&nbsp;Female</label>
 		                     </div>
@@ -92,6 +79,9 @@
 
 		<footer class="footer"><p>&copy; 2019 All Rights Reserved. Moringa School, Akan Names Project. Developed by Yommie Samora.</p></footer>
 	</div>
-
+	<script src="js/jquery-3.4.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
