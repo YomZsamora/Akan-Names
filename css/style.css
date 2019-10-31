@@ -1,0 +1,157 @@
+
+
+body {
+    font-family: 'Open Sans',serif;
+    padding-top: 54px;
+    padding-left: 54px;
+    color: #495057;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+.intro h1 {
+    font-size: 15rem;
+}
+
+.stylists h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.stylists h3 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.stylist-details h3, .client-details h3 {
+    margin-bottom: 0;
+}
+
+.client-details .alert p, .client-details .alert p a {
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.intro p: {
+    font-size: 25px;
+}
+
+.btn-default {
+    background: #e4e7ea;
+    color: #636e7b;
+    border-color: #ccc !important;
+}
+
+label.error {
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    display: inline-block;
+    padding: 9px 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: all 0.2s ease-out 0s;
+}
+
+.mb0 {
+    margin-bottom:0px;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb15 {
+	margin-bottom: 15px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.btn-xs {
+    padding: 2px 10px;
+}
+
+.alert p {
+    font-size: 12px;
+}
+
+.alert.post-success {
+    font-size: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #bd5d38 !important;
+    border-color: #bd5d38 !important;
+}
+
+.stylist-list h3 small {
+    font-family: 'Saira Extra Condensed',serif !important;
+    text-transform: uppercase !important;
+    color: #343a40 !important;
+    font-size: 20px !important
+}
+
+.add-stylist-form .label {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 20px;
+}
+
+input:active, input:focus {
+    border-color: #bd5d38 !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(189, 93, 56, 0.25) !important;
+}
+
+
+.footer {
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+.footer p {
+    font-size: 11px;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px 0px;
+}
