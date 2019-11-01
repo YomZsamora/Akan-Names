@@ -104,6 +104,24 @@ span.heading-name {
     text-align: right;
 }
 
+.your-akan-name {
+    padding-top: 40px;
+}
+
+.your-akan-name p {
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+p.output span {
+    color: #bd5d38;
+    font-size: 50px;
+}
 
 
 .footer {
