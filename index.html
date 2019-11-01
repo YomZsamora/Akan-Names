@@ -52,11 +52,12 @@
 			<div class="col-md-4 mt30 akan-form">
 				<h5>Please Enter Your Birthdate Here:</h5>
 				<div class="add-stylist-form">
-					<form><div class="form-group mb15">
+					<form>
+						<div class="form-group mb15">
 			              	<label class="label">Birthday</label>
 			               	<div class="input-group mb15">
 				                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-				                <input type="text" placeholder="dd/mm/yyyy" id="date" class="form-control">
+				                <input type="text" placeholder="dd/mm/yyyy" id="date" class="form-control tooltips" data-placement="top" data-toggle="tooltip" title="" data-original-title="Please Enter a Strong Password">
 				             </div>
 			            </div>   
 
@@ -71,7 +72,7 @@
 		                        <label for="female">&nbsp;&nbsp;Female</label>
 		                     </div>
 			            </div>
-			            <button type="submit" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+			            <button type="submit" onclick="getAkanName()" class="btn btn-primary btn-xs"><i class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
 			            <button type="reset" class="btn btn-default btn-xs"><i class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>		
 					</form>	
 				</div>
@@ -86,7 +87,6 @@
 		<footer class="footer"><p>&copy; 2019 All Rights Reserved. Moringa School, Akan Names Project. Developed by Yommie Samora.</p></footer>
 	</div>
 	<script src="js/jquery-3.4.1.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
