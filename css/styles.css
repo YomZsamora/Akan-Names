@@ -119,7 +119,6 @@ span.heading-name {
     line-height: 1.2em;
 }
 
-.ckbox,
 .rdio {
     position: relative;
 }
@@ -208,13 +207,10 @@ span.heading-name {
     background-color: #D9534F;
 }
 
-
-
 p.output span {
     color: #bd5d38;
     font-size: 50px;
 }
-
 
 .footer {
     position: fixed; 
@@ -224,6 +220,7 @@ p.output span {
     background-color: #ffffff;
     margin-top: 50px;
 }
+
 .footer p {
     font-size: 11px;
     margin-bottom: 0px;
