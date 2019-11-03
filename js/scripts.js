@@ -39,3 +39,7 @@ function getAkanName(){
         }
     }
 }
+
+function clearAkanMessage(){
+    document.getElementById('message').innerHTML = "";
+}
