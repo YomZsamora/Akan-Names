@@ -1,6 +1,6 @@
 # AUTHORS
 - 
-- yomZsamora
+- [yomZsamora](https://github.com/YomZsamora/Akan-Names)
 - [Trinity] (https://github.com/Trinityrace/Akan-Names.git)
 
 # Akan-Names
